@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Blog Posts | Catkin Software Solution Farm </title>
+    <!--          CSS Link         -->
+    <link rel="stylesheet" href="blog.css">
+
+
+    <!--        Favicon         -->
+    <link rel="shortcut icon" href="catkin1.png" type="image/x-icon">
+
+    <!--      BOX ICON       -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-----------ION ICONS------------->
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+
+
+
+
+</head>
+
+<body>
+    <!--===================================Header Section ================================-->
+    <header class="header" id="navbar">
+
+        <a href="#catkin" class="header__logo">Catkin Course</a>
+        <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+
+        <nav class="nav" id="nav-menu">
+            <div class="nav__content bd-grid">
+                <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
+
+                <div class="nav__profile">
+                    <div class="nav__img">
+                        <img class="img-fluid" src="catkin1.png" alt="">
+                    </div>
+
+                    <div>
+                        <a href="#catkin" class="nav__name">Catkin Course</a>
+                        <span class="nav__moto">Work Hard Get Success...</span>
+                    </div>
+                </div>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link active">Catkin</a></li>
+                        <li class="nav__item dropdown ">
+                            <a href="#" class="nav__link ">Course<i class='bx bxs-chevron-down dropdown__icon'></i></a>
+
+                            <ul class="dropdown__menu">
+                                <li class="dropdown__item"><a href="#" class="nav__link__drop">Android Development</a></li>
+                                <li class="dropdown__item"><a href="#" class="nav__link__drop">Web-Development</a></li>
+                                <li class="dropdown__item"><a href="#" class="nav__link__drop">Programming</a></li>
+                                <li class="dropdown__item"><a href="#" class="nav__link__drop">Graphics</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Blog</a>
+                        </li>
+                        <li class="nav__item"><a href="#" class="nav__link">Instruction</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+
+                    </ul>
+                </div>
+
+
+                <div class="nav__social">
+                    <a href="#" class="nav__social-icon">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a href="#" class="nav__social-icon">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+
+                    <a href="#" class="nav__social-icon">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+
+                    <a href="#" class="nav__social-icon">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+
+
+
+
+                </div>
+
+            </div>
+
+
+        </nav>
+    </header>
+
+
+
+    <searchBlog__section class="s-b">
+
+        <div class="search__btn">
+            <button class="button"><span>All </span></button>
+            <button class="button"><span>App Dev </span></button>
+            <button class="button"><span>Web Dev </span></button>
+            <button class="button"><span>Graphics </span></button>
+            <button class="button"><span>C Prog </span></button>
+            <button class="button"><span>Python </span></button>
+            <button class="button"><span>Java </span></button>
+            <button class="button"><span>Language </span></button>
+
+
+
+        </div>
+
+    </searchBlog__section>
+
+    <blogCard__section>
+        <div class="blog__card">
+
+            <section class="cards-wrapper">
+                <div class="card-grid-space">
+
+                    <a class="card blog__img1" href="">
+
+
+                        <div>
+                            <h1>Digital Corporate Banking in South Asia</h1>
+                            <p>With online retail banking on the rise in South Asia, now digital corporate banking applications is bringing new innovations to the business sector of the region...</p>
+                            <div class="name"><i class='bx bxs-user-circle'></i> Fahmiza Ramina</div>
+                            <div class="date"><i class='bx bx-calendar'></i> 14 Dec 2020</div>
+                            <div class="tags">
+                                <div class="tag">Read More...</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card-grid-space">
+
+                    <a class="card blog__img2" href="https://codetheweb.blog/2017/10/06/html-syntax/">
+                        <div>
+                            <h1>Top SharePoint Solution Provider in Bangladeshr</h1>
+                            <p>SharePoint is a platform within Office 365 that provides a platform for collaborative and creative capabilities enabling organizations to share, manage...</p>
+                            <div class="name"><i class='bx bxs-user-circle'></i> Golam Asad Pias</div>
+                            <div class="date"><i class='bx bx-calendar'></i> 23 Nov 2020</div>
+                            <div class="tags">
+                                <div class="tag">Read More...</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card-grid-space">
+
+                    <a class="card blog__img3" href="https://brainstation-23.com/blog/">
+                        <div>
+                            <h1>The Rise of AI Chatbot</h1>
+                            <p>Chatbots have evolved how companies can serve their customers. And with the advancements of AI, we will see how AI chatbots are being implemented...</p>
+
+                            <div class="name"><i class='bx bxs-user-circle'></i> Tanzila Tabassum</div>
+                            <div class="date"><i class='bx bx-calendar'></i> 28 July 2020</div>
+                            <div class="tags">
+                                <div class="tag">Read More...</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card-grid-space">
+
+                    <a class="card blog__img4" href="https://codetheweb.blog/2017/10/06/html-syntax/">
+                        <div>
+                            <h1>AEM Solutions For Pharma & Telco Industry Leaders</h1>
+                            <p>We have accomplished a number of successful AEM CMS development projects at Brain Station over the years. This is a look into our AEM outsourcing projects...</p>
+
+                            <div class="name"><i class='bx bxs-user-circle'></i> Ayman Wasif</div>
+                            <div class="date"><i class='bx bx-calendar'></i> 30 June 2020</div>
+                            <div class="tags">
+                                <div class="tag">Read More...</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="card-grid-space">
+
+                    <a class="card blog__img5" href="https://codetheweb.blog/2017/10/06/html-syntax/">
+                        <div>
+                            <h1>Technology Innovation in Pharmaceutical Industry In 2020</h1>
+                            <p>The pharmaceutical industry has always played a key role in the progress of human lives. This blog is on what technology innovation in pharmaceutical...</p>
+                            <div class="name"><i class='bx bxs-user-circle'></i> Tanzila Tabassum</div>
+                            <div class="date"><i class='bx bx-calendar'></i> 6 Sept 2020</div>
+                            <div class="tags">
+                                <div class="tag">Read More...</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="card-grid-space">
+
+                    <a class="card blog__img6" href="https://codetheweb.blog/2017/10/06/html-syntax/">
+                        <div>
+                            <h1>Top AR & VR Providers in Bangladesh</h1>
+                            <p>In this article, you will get to know the overall scenario of AR VR technology scopes in Bangladesh and which Bangladeshi software development companies...</p>
+                            <div class="name"><i class='bx bxs-user-circle'></i> Fahmiza Ramina</div>
+                            <div class="date"><i class='bx bx-calendar'></i> 16 Apr 2020</div>
+                            <div class="tags">
+                                <div class="tag">Read More...</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+
+                <div class="card-grid-space">
+
+                    <a class="card blog__img7" href="https://codetheweb.blog/2017/10/06/html-syntax/">
+                        <div>
+                            <h1>Top e-Commerce Sites in Bangladesh According To Alexa</h1>
+                            <p>In our growing economy of Bangladesh, people are more intended to go for options of convenience and are less concerned...</p>
+                            <div class="name"><i class='bx bxs-user-circle'></i> Ayman Wasif</div>
+                            <div class="date"><i class='bx bx-calendar'></i> 3 May 2020</div>
+                            <div class="tags">
+                                <div class="tag">Read More...</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+
+                <div class="card-grid-space">
+
+                    <a class="card blog__img8" href="https://codetheweb.blog/2017/10/06/html-syntax/">
+                        <div>
+                            <h1>Let’s Take Your Business To Next Level Remotely</h1>
+                            <p>Many businesses across the country today are waking up to fear and uncertainty due to the widespread impact of the...</p>
+                            <div class="name"><i class='bx bxs-user-circle'></i> Shamiul Haque</div>
+                            <div class="date"><i class='bx bx-calendar'></i> 5 Apr 2020</div>
+                            <div class="tags">
+                                <div class="tag">Read More...</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+
+                <div class="card-grid-space">
+
+                    <a class="card blog__img9" href="https://codetheweb.blog/2017/10/06/html-syntax/">
+                        <div>
+                            <h1>Top SharePoint Solution Provider in Bangladesh</h1>
+                            <p>SharePoint is a platform within Office 365 that provides a platform for collaborative and creative capabilities enabling organizations to share,...</p>
+                            <div class="name"><i class='bx bxs-user-circle'></i> Shamiul Haque</div>
+                            <div class="date"><i class='bx bx-calendar'></i> 19 Mar 2020</div>
+                            <div class="tags">
+                                <div class="tag">Read More...</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+
+                <div class="card-grid-space">
+
+                    <a class="card blog__img10" href="https://codetheweb.blog/2017/10/06/html-syntax/">
+                        <div>
+                            <h1>Why every business needs a mobile app?</h1>
+                            <p>With days passing by we are becoming more dependent on our tiny devices called mobiles. From shopping to traveling, looking...</p>
+                            <div class="name"><i class='bx bxs-user-circle'></i> Farzana Afrin</div>
+                            <div class="date"><i class='bx bx-calendar'></i> 1 Apr 2020</div>
+                            <div class="tags">
+                                <div class="tag">Read More...</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+
+                <div class="card-grid-space">
+
+                    <a class="card blog__img11" href="https://codetheweb.blog/2017/10/06/html-syntax/">
+                        <div>
+                            <h1>eBackup 23: Backup Solution With AWS</h1>
+                            <p>Introduction to eBackup 23 eBackup 23 is a data backup platform that offers unlimited space for standard & cold storage...</p>
+                            <div class="name"><i class='bx bxs-user-circle'></i> Townim Faisal</div>
+                            <div class="date"><i class='bx bx-calendar'></i> 4 Nov 2019</div>
+                            <div class="tags">
+                                <div class="tag">Read More...</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+
+                <div class="card-grid-space">
+
+                    <a class="card blog__img12" href="https://codetheweb.blog/2017/10/06/html-syntax/">
+                        <div>
+                            <h1>Top Technology Skills You Need to Have in 2019</h1>
+                            <p>We use technology more than ever these days to stay connected to our friends and family, get up-to-date on the...</p>
+                            <div class="name"><i class='bx bxs-user-circle'></i> Shamiul Haque</div>
+                            <div class="date"><i class='bx bx-calendar'></i> 28 Nov 2019</div>
+                            <div class="tags">
+                                <div class="tag">Read More...</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+
+                <div class="card-grid-space">
+
+                    <a class="card blog__img13" href="https://codetheweb.blog/2017/10/06/html-syntax/">
+                        <div>
+                            <h1>Common mistakes in cross-platform development</h1>
+                            <p>If a developer can learn from other developers mistake that can add value in his skill of development...</p>
+                            <div class="name"><i class='bx bxs-user-circle'></i> Tanimul Haque</div>
+                            <div class="date"><i class='bx bx-calendar'></i> 30 Aug 2019</div>
+                            <div class="tags">
+                                <div class="tag">Read More...</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+
+                <div class="card-grid-space">
+
+                    <a class="card blog__img14" href="https://codetheweb.blog/2017/10/06/html-syntax/">
+                        <div>
+                            <h1>Underused Cross-Platform Technology: Unity</h1>
+                            <p>This post was first published on medium. Yeah you read that right. I’ve been working on an app...</p>
+                            <div class="name"><i class='bx bxs-user-circle'></i> Tanimul Haque</div>
+                            <div class="date"><i class='bx bx-calendar'></i> 19 Aug 2019</div>
+                            <div class="tags">
+                                <div class="tag">Read More...</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+
+                <div class="card-grid-space">
+
+                    <a class="card blog__img15" href="https://codetheweb.blog/2017/10/06/html-syntax/">
+                        <div>
+                            <h1>10 Qualities To Look for Before Hiring A Software Outsourcing Company</h1>
+                            <p>Many companies are choosing to outsource IT services for various of propensities but before hiring one...</p>
+                            <div class="name"><i class='bx bxs-user-circle'></i> Fahmiza Ramina</div>
+                            <div class="date"><i class='bx bx-calendar'></i> 14 Oct 2019</div>
+                            <div class="tags">
+                                <div class="tag">Read More...</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <!-- https://images.unsplash.com/photo-1520839090488-4a6c211e2f94?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=38951b8650067840307cba514b554ba5&auto=format&fit=crop&w=1350&q=80 -->
+            </section>
+        </div>
+    </blogCard__section>
+
+
+
+
+
+
+
+
+
+
+    <!--============================================footer section================================-->
+    <footer class="footer section ">
+        <div class="footer__container bd-grid ">
+            <div class="footer__box ">
+                <h3 class="footer__title ">C&nbsp;&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;F</h3>
+                <p class="footer__deal ">Products Store</p>
+                <a href="# "><img src="footerstore1.png " alt=" " class="footer__store "></a>
+                <a href="# "><img src="footerstore2.png " alt=" " class="footer__store "></a>
+            </div>
+
+            <div class="footer__box ">
+                <h3 class="footer__title ">EXPLORE</h3>
+                <ul>
+                    <li><a href="# " class="footer__link ">Catkin</a></li>
+                    <li><a href="# " class="footer__link ">Course</a></li>
+                    <li>
+                        <a href="# " class="footer__link ">Blog</a>
+                    </li>
+                    <li><a href="# " class="footer__link ">Instruction</a></li>
+                    <li><a href="# " class="footer__link ">Contact</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer__box ">
+                <h3 class="footer__title ">OUR HELP</h3>
+                <ul>
+                    <li><a href="# " class="footer__link ">Codinism</a></li>
+                    <li><a href="# " class="footer__link ">Privacy Policy</a></li>
+                    <li><a href="# " class="footer__link ">Terms of Use</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer__box ">
+                <h3 class="footer__title ">OUR LOCATION</h3>
+                <ul>
+                    <li><i class='bx bx-map footer__icon'></i><a href="# " class="footer__link footer__link1 ">KhaganBazar,Ashulia,Dhaka Bangladesh</a></li>
+                    <li><i class='bx bx-mail-send footer__icon'></i><a href="# " class="footer__link footer__link1 ">catkin@softwaresoluionfarm.com</a></li>
+                    <li><i class='bx bx-phone-call footer__icon'></i><a href="# " class="footer__link footer__link1 ">+8801736648866</a></li>
+
+                </ul>
+            </div>
+
+
+            <div class="footer__box ">
+                <h3 class="footer__title ">FOLLOW</h3>
+
+                <a href="# " class="footer__social ">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+
+
+                <a href="# " class="footer__social ">
+                    <i class='bx bxl-facebook-circle'></i>
+                </a>
+                <a href="# " class="footer__social ">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="# " class="footer__social ">
+                    <i class='bx bxl-youtube'></i>
+                </a>
+
+
+
+            </div>
+
+        </div>
+
+        <p class="footer__copy ">&#169; 2021 Copyright All Right Reserved @ CSSF | Catkin Software Solution Farm</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--===================================JS Link Section================================-->
+    <script src="blog.js "></script>
+
+
+</body>
+
+</html>
